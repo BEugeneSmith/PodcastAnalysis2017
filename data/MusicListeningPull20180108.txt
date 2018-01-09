@@ -1,0 +1,55 @@
+name|dateReleased|duration|album|artist|composer|genre|playedCount|datePlayed|dateAdded|year|descriptionShort
+Flowers|missing value|530.22998046875|Late Night Tales: Bonobo|Andrew Ashong & Theo Parish||Electronic|77|2018-01-07 09:01:09|2016-10-07 20:09:37|2013|
+212 (feat. Lazy Jay)|Friday, November 7, 2014 at 02:00:00|204.878997802734|Broke With Expensive Taste|Azealia Banks|Jef Martens & Azealia Banks|Alternative|51|2018-01-07 08:39:05|2016-02-14 09:21:47|2014|
+A Sunday Smile|Tuesday, September 4, 2007 at 02:00:00|215.572998046875|The Flying Club Cup|Beirut||Alternative|5|2018-01-07 08:35:40|2017-03-04 10:07:35|2007|
+Postcards From Italy|Tuesday, May 9, 2006 at 02:00:00|257.480010986328|Gulag Orkestar|Beirut||Alternative|9|2018-01-07 07:52:05|2017-03-04 10:07:36|2006|
+Capable of Anything|Friday, September 11, 2015 at 02:00:00|229.66600036621102|So There|Ben Folds||Rock|398|2018-01-07 06:15:13|2016-03-09 17:20:51|2015|
+If You Stayed Over (feat. Fink)|Monday, October 2, 2006 at 02:00:00|323.77301025390597|Days To Come|Bonobo||Electronic|8|2018-01-07 08:10:41|2016-09-18 15:33:23|2006|
+Get Thy Bearings (feat. Szjerdene)|Monday, December 31, 2012 at 18:00:00|185.888000488281|Late Night Tales: Bonobo|Bonobo||Electronic|3|2018-01-07 07:44:16|2017-07-24 06:54:20|2013|
+Kerala|Friday, January 13, 2017 at 02:00:00|237.546005249023|Migration|Bonobo||Electronic|561|2018-01-07 06:32:08|2016-11-06 09:20:23|2017|
+Jets|Thursday, March 21, 2013 at 02:00:00|274.82598876953097|The North Borders|Bonobo||Electronic|32|2018-01-07 07:56:40|2016-02-14 09:21:47|2013|
+Morning Time (feat. Nicki Bluhm)|Tuesday, May 22, 2012 at 02:00:00|259.14599609375|Respect the Van|The Brothers Comatose||Singer/Songwriter|79|2018-01-07 06:04:23|2017-10-09 14:54:27|2012|
+Ta douleur|Monday, November 28, 2005 at 02:00:00|186.942001342773|Le fil|Camille|Camille Dalmais|French Pop|32|2018-01-07 16:53:14|2016-02-14 09:21:45|2005|
+Slow Down Chicago|Monday, January 23, 2006 at 02:00:00|244.33299255371102|We Were Set Up|Canasta||Pop|69|2018-01-06 06:44:38|2016-02-14 09:21:45|2006|
+Odessa|Tuesday, April 20, 2010 at 02:00:00|315.584991455078|Swim (Bonus Track Version)|Caribou||Alternative|45|2018-01-07 16:46:48|2016-02-16 06:58:07|2010|
+Born With a Broken Heart|Thursday, February 3, 2011 at 02:00:00|164.266006469727|Everything Is Saved|David Wax Museum||Rock|21|2018-01-07 08:41:49|2016-02-14 09:21:45|2011|
+Extraordinary Machine|Tuesday, October 4, 2005 at 02:00:00|223.613006591797|Extraordinary Machine|Fiona Apple|Fiona Apple|Pop|136|2018-01-07 06:08:07|2016-02-14 09:21:45|2005|
+Dog Days Are Over|Saturday, January 1, 2011 at 02:00:00|251.839996337891|Lungs (Deluxe Edition)|Florence + The Machine|Florence Welch & Isabella Summers|Alternative|320|2018-01-07 06:40:01|2017-10-01 22:32:55|2011|
+Junk City II|Monday, September 9, 2013 at 02:00:00|393.239990234375|Half of Where You Live|Gold Panda||Electronic|1|2018-01-07 16:34:21|2016-09-22 14:26:58|2013|
+Snow & Taxis|Tuesday, September 7, 2010 at 02:00:00|280.46600341796903|Lucky Shiner|Gold Panda|Gold Panda|Electronic|6|2018-01-07 16:24:28|2016-09-22 14:27:20|2010|
+Cards to Your Heart (feat. Nick Littlemore of Empire of the Sun)|Tuesday, March 2, 2010 at 02:00:00|333.57501220703097|Black Light (Deluxe Edition)|Groove Armada||Electronic|151|2018-01-07 06:49:18|2016-02-14 09:21:45|2010|
+Elegy|Tuesday, March 5, 2013 at 02:00:00|254.440002441406|Lines We Trace|Hey Marseilles||Alternative|219|2018-01-07 06:23:58|2016-02-14 09:21:48|2013|
+Rio|Tuesday, June 8, 2010 at 02:00:00|238.188995361328|To Travels & Trunks|Hey Marseilles||Alternative|106|2018-01-07 17:15:30|2016-02-14 09:21:48|2010|
+Paraguaya|Friday, April 7, 2017 at 02:00:00|223.699996948242|Halo|Juana Molina|Juana Molina|Alternative|31|2018-01-07 21:27:46|2018-01-02 06:25:20|2017|
+Cara de espejo|Friday, April 7, 2017 at 02:00:00|309.765991210938|Halo|Juana Molina|Juana Molina|Alternative|2|2018-01-07 21:13:06|2018-01-02 06:25:20|2017|
+Estalacticas|Friday, April 7, 2017 at 02:00:00|292.864990234375|Halo|Juana Molina|Juana Molina|Alternative|2|2018-01-07 21:18:37|2018-01-02 06:25:20|2017|
+The Ballad of Mr. Steak|Tuesday, May 13, 2014 at 02:00:00|199.440002441406|Lighght (Deluxe Version)|Kishi Bashi||Alternative|63|2018-01-07 16:50:07|2017-07-21 00:19:39|2014|
+I'll See You There (Bonus Track)|Tuesday, May 13, 2014 at 02:00:00|231.05299377441398|Lighght (Deluxe Version)|Kishi Bashi||Alternative|4|2018-01-07 08:32:04|2017-07-21 00:19:39|2014|
+Too Much Love|Monday, January 24, 2005 at 02:00:00|342.493011474609|LCD Soundsystem|LCD Soundsystem|James Murphy|Pop|1|2018-01-07 07:41:10|2015-10-31 13:18:16|2005|
+Losing My Edge|Monday, January 24, 2005 at 02:00:00|473.066009521484|LCD Soundsystem|LCD Soundsystem|James Murphy|Pop|8|2018-01-07 08:18:34|2016-02-14 09:21:47|2005|
+Someone Great|Monday, March 12, 2007 at 02:00:00|390.013000488281|Sound of Silver|LCD Soundsystem|James Murphy|Electronic|32|2018-01-07 08:28:13|2016-11-20 10:30:15|2007|
+I'm Good, I'm Gone|Monday, June 2, 2008 at 02:00:00|189.09300231933602|Youth Novels|Lykke Li|Lykke Li & Bjorn Yttling|Alternative|44|2018-01-07 08:21:43|2016-02-14 09:21:48|2008|
+Go! (feat. Mai Lan)|Friday, April 8, 2016 at 02:00:00|235.731994628906|Junk|M83||Electronic|62|2018-01-07 17:19:26|2017-07-21 00:19:39|2016|
+Laser Gun (feat. Mai Lan)|Friday, April 8, 2016 at 02:00:00|257.009002685547|Junk|M83||Electronic|20|2018-01-07 16:10:27|2017-07-21 00:19:39|2016|
+Like Me (feat. Siena Liggins)|Friday, October 27, 2017 at 02:00:00|212.141998291016|Like Me (feat. Siena Liggins) - Single|Manatee Commune|Grant Eadie & Traditional|Pop|37|2018-01-07 21:46:22|2017-12-22 23:47:59|2017|
+Clementine (feat. Marina Price)|Friday, September 16, 2016 at 02:00:00|231.307998657227|Manatee Commune|Manatee Commune|Grant Eadie|IDM/Experimental|249|2018-01-07 08:05:17|2016-09-17 06:03:10|2016|
+The Garden Song (feat. Moorea Masa)|Friday, September 16, 2016 at 02:00:00|177.856994628906|Manatee Commune|Manatee Commune|Grant Eadie|IDM/Experimental|37|2018-01-07 17:11:32|2016-09-17 06:03:10|2016|
+Simple Lessons|Friday, February 26, 2016 at 02:00:00|262.760009765625|Thistle - EP|Manatee Commune|G. Eadie|IDM/Experimental|7|2018-01-07 07:35:28|2016-09-17 05:59:26|2016|
+He Is Without His Guns|missing value|204.904006958008|Into The Light|Marisa Anderson||NPR Music's The Austin 100 (2017)|3|2018-01-07 09:05:12|2017-03-05 16:51:15|0|
+VIII. Juliet|Monday, December 31, 2012 at 18:00:00|199.81300354003898|Late Night Tales: Bonobo|Matthew Bourne||Electronic|139|2018-01-07 16:27:48|2017-07-24 06:54:20|2013|
+We Are Golden|Tuesday, September 22, 2009 at 02:00:00|238.095993041992|The Boy Who Knew Too Much|Mika|MIKA|Pop|30|2018-01-07 17:00:35|2016-02-14 09:21:44|2009|
+Lollipop|Monday, February 5, 2007 at 02:00:00|183.533004760742|Life In Cartoon Motion|MIKA|MIKA|Pop|44|2018-01-07 16:05:16|2017-07-21 00:19:40|2007|
+Eating Hooks|Friday, April 1, 2016 at 02:00:00|271.968994140625|III|Moderat||Electronic|220|2018-01-07 16:14:59|2016-10-07 20:06:51|2016|
+Sunset Lover (Manatee Commune Remix)|Friday, June 16, 2017 at 02:00:00|202.513000488281|Sunset Lover Remixes - EP|Petit Biscuit|Mehdi Benjelloun|Electronic|92|2018-01-07 16:56:37|2017-08-09 18:36:59|2017|
+Hang On Little Tomato|Tuesday, October 19, 2004 at 02:00:00|196.893005371094|Hang On Little Tomato|Pink Martini||Pop|240|2018-01-07 06:11:24|2016-02-14 09:21:45|2004|
+Me and Us|Friday, June 11, 2010 at 02:00:00|361.726013183594|Antifogmatic|Punch Brothers||Singer/Songwriter|5|2018-01-07 09:11:14|2016-02-14 09:51:12|2010|
+Passepied (Debussy)|Friday, January 23, 2015 at 02:00:00|209.600006103516|The Phosphorescent Blues|Punch Brothers||Singer/Songwriter|245|2018-01-07 17:08:34|2017-01-26 06:54:25|2015|
+Cheap Thrills|Friday, January 29, 2016 at 02:00:00|211.66600036621102|This Is Acting|Sia|Sia Furler|Pop|126|2018-01-07 07:47:48|2016-05-30 14:41:02|2016|
+Don't Mug Yourself|Monday, March 18, 2002 at 02:00:00|158.332992553711|Original Pirate Material|The Streets||Pop|37|2018-01-07 08:50:04|2016-02-14 09:21:45|2002|
+Coffee|Tuesday, May 13, 2014 at 02:00:00|269.692993164062|Sylvan Esso|Sylvan Esso||Alternative|199|2018-01-07 17:05:05|2016-02-14 09:21:46|2014|
+Song|Friday, April 28, 2017 at 02:00:00|207.360000610352|What Now|Sylvan Esso|Amelia Meath & Nick Sanborn|Alternative|11|2018-01-07 16:41:32|2017-07-24 06:54:22|2017|
+Rose Quartz|Tuesday, January 22, 2013 at 02:00:00|253.119003295898|Anything In Return|Toro y Moi||Electronic|52|2018-01-07 06:28:11|2016-05-26 04:11:01|2013|
+Touch|Tuesday, January 22, 2013 at 02:00:00|158.319000244141|Anything In Return|Toro y Moi||Electronic|57|2018-01-07 09:04:14|2016-05-26 04:11:01|2013|
+My Country|Monday, April 18, 2011 at 02:00:00|220.160003662109|Whokill|Tune-Yards|Merrill Garbus & Nate Brenner|Alternative|38|2018-01-07 07:27:45|2016-02-14 09:21:46|2011|
+Percussion Gun|Tuesday, April 14, 2009 at 02:00:00|188.305999755859|It's Frightening|White Rabbits|White Rabbits|Alternative|2|2018-01-07 08:47:26|2011-04-19 15:56:51|2009|
+À cause des garçons|Monday, October 1, 2007 at 02:00:00|228.106002807617|Pop Up (Bonus Track Version)|Yelle||Electronic|18|2018-01-07 08:00:28|2016-02-14 09:21:44|2007|
