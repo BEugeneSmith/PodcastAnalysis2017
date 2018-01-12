@@ -1,5 +1,8 @@
 #!/Users/BEugeneSmith/anaconda3/bin/python3
 '''
+The purpose of this script is to parse relevant fields from data pulled from iTunes.
+Not much manipulation is done, as iTunes produces a relatively clean stream of data
+Author
 
 '''
 
