@@ -13,11 +13,12 @@ import pandas as pd
 class Audio(object):
 
     def __init__(self,config_name):
-        self.today = datetime.datetime.now()
+        self.today = datetime.datetime.now().date()
         self.config_name = config_name
 
         self._set_config()
         self.data = self._pull_data()
+        self._clean_data()
         self._store_data()
 
     def _set_config(self):
@@ -29,14 +30,19 @@ class Audio(object):
             sys.exit('unknown config used:{}'.format(self.config_name))
 
     def _pull_data(self):
-        DataBuff = Popen(['osascript pull{}Data.scpt'.format(self.audio_type)],shell=True,stdout=PIPE)
+        data_buff = Popen(['osascript pull{}Data.scpt'.format(self.audio_type)],shell=True,stdout=PIPE)
         date_cols = ['datePlayed','dateAdded','dateReleased']
-        return pd.read_table(DataBuff.stdout,sep='|',parse_dates=date_cols,infer_datetime_format=True)
+        data = pd.read_table(data_buff.stdout,sep='|',parse_dates=date_cols)
+        data.loc[:,'reportRunDate'] = self.today
+        holidays =
+        data.loc[:,'expectedDatePlayed'] = data['reportRunDate'] - datetime.timedelta(days=1)
+        data.loc[:,'played_yesterday'] = pd.to_datetime(data['datePlayed']).dt.strftime('%Y%m%d') == pd.to_datetime(data['expectedDatePlayed']).dt.strftime('%Y%m%d')
+        return data
 
     def _clean_data(self):
-        self.data['release_to_play_seconds'] = (self.data['datePlayed'] - self.data['dateReleased']).datetime.total_seconds()
-        self.data['release_to_add_seconds'] = (self.data['dateAdded'] - self.data['dateReleased']).datetime.total_seconds()
-        self.data['add_to_play_seconds'] = (self.data['datePlayed'] - self.data['dateAdded']).datetime.total_seconds()
+        self.data['release_to_play_seconds'] = (self.data['datePlayed'] - self.data['dateReleased']).dt.total_seconds()
+        self.data['release_to_add_seconds'] = (self.data['dateAdded'] - self.data['dateReleased']).dt.total_seconds()
+        self.data['add_to_play_seconds'] = (self.data['datePlayed'] - self.data['dateAdded']).dt.total_seconds()
 
     def _store_data(self):
         project_dir = '/Users/BEugeneSmith/Desktop/projects/PodcastAnalysis'
