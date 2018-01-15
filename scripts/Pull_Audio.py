@@ -25,6 +25,7 @@ class Audio(object):
         self._store_data()
 
     def _set_config(self):
+        ''' determine which apple script to run, podcast or music '''
         if self.config_name == 'podcast':
             self.audio_type = 'Podcast'
         elif self.config_name == 'music':
@@ -63,6 +64,7 @@ class Audio(object):
         self.data['add_to_play_seconds'] = (self.data['datePlayed'] - self.data['dateAdded']).dt.total_seconds()
 
     def _store_data(self):
+        ''' save newly generated data to the data folder '''
         project_dir = '/Users/BEugeneSmith/Desktop/projects/PodcastAnalysis'
         out_file_name = '/data/{}ListeningPull{}{:02d}{:02d}.txt'.format(self.audio_type,self.today.year,self.today.month,self.today.day)
         self.data.to_csv(project_dir+out_file_name,sep='|',index=False)

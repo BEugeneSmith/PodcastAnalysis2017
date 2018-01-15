@@ -10,9 +10,7 @@ class Moment_JSON(object):
 
 
     def _load_clean_json(self):
-        '''
-        opens the json output from moment, cleans it, and stores it in a dictionary
-        '''
+        ''' opens the json output from moment, cleans it, and stores it in a dictionary '''
         data_buff = open(self.moment_path)
 
         all_lines = data_buff.readlines()
@@ -21,9 +19,7 @@ class Moment_JSON(object):
         return json.loads(all_lines)
 
     def _parse_json_to_dataframe(self):
-        '''
-        Parse the loaded and cleaned json string from dictionary to dataframe
-        '''
+        ''' Parse the loaded and cleaned json string from dictionary to dataframe '''
         json_dict = self.json_data['days']
         day_labels = ['date','pickups']
         records = {
@@ -51,6 +47,7 @@ class Moment_JSON(object):
         return pd.DataFrame(records)
 
     def store_parsed_json(self):
+        ''' save the data parsed from the data in a pipe-delimited file '''
         now = datetime.datetime.now()
         now_str = now.strftime('%Y%m%d')
         self.moment_df.to_csv('moment_data_'+now_str+'.txt',index=False,sep='|')
