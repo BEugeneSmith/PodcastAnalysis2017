@@ -1,3 +1,5 @@
+*.json
 *.txt
 *.xlsx
+dev*
 .gitignore

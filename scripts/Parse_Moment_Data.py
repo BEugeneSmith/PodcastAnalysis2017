@@ -22,7 +22,7 @@ class Moment_JSON(object):
 
     def _parse_json_to_dataframe(self):
         '''
-        Parses the loaded and cleaned json string from dictionary to dataframe
+        Parse the loaded and cleaned json string from dictionary to dataframe
         '''
         json_dict = self.json_data['days']
         day_labels = ['date','pickups']
@@ -56,6 +56,5 @@ class Moment_JSON(object):
         self.moment_df.to_csv('moment_data_'+now_str+'.txt',index=False,sep='|')
 
 if __name__ == '__main__':
-    moment_file = '../data/moment.json'
-    moment = Moment_JSON(moment_file)
+    moment = Moment_JSON('../data/moment.json')
     moment.store_parsed_json()
