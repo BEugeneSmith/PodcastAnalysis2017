@@ -59,16 +59,16 @@ class Audio(object):
         self.data.loc[:,'played_holiday_ind'] = self.data['datePlayed'].apply(lambda x: x.weekday() in self._holidays.holidays())
 
         # pre-calclulate critical time diffs in seconds
-        self.data['release_to_play_seconds'] = (self.data['datePlayed'] - self.data['dateReleased']).dt.total_seconds()
-        self.data['release_to_add_seconds'] = (self.data['dateAdded'] - self.data['dateReleased']).dt.total_seconds()
+        self.data['release_to_play_seconds'] = (self.data['datePlayed'] - pd.to_datetime(self.data['dateReleased'])).dt.total_seconds()
+        self.data['release_to_add_seconds'] = (self.data['dateAdded'] - pd.to_datetime(self.data['dateReleased'])).dt.total_seconds()
         self.data['add_to_play_seconds'] = (self.data['datePlayed'] - self.data['dateAdded']).dt.total_seconds()
 
     def _store_data(self):
         ''' save newly generated data to the data folder '''
+        timestr = self.today.strftime('%Y%m%d')
         project_dir = '/Users/BEugeneSmith/Desktop/projects/PodcastAnalysis'
-        out_file_name = '/data/{}ListeningPull{}{:02d}{:02d}.txt'.format(self.audio_type,self.today.year,self.today.month,self.today.day)
-        self.data.to_csv(project_dir+out_file_name,sep='|',index=False)
-
+        out_file_name = 'data/{}ListeningPull{}.txt'.format(self.audio_type,timestr)
+        self.data.to_csv(os.path.join(project_dir,out_file_name),sep='|',index=False)
 
 if __name__ == "__main__":
     Audio(config_name='podcast')
