@@ -40,6 +40,11 @@ class Audio(object):
         date_cols = ['datePlayed','dateAdded','dateReleased']
         data = pd.read_table(data_buff.stdout,sep='|',parse_dates=date_cols)
         data.loc[:,'reportRunDate'] = self.today
+        if self.audio_type == "Music":
+            # The Bonobos track "Flowers" generates an error; as far as I know it's the only album that causes that error
+            data['dateReleased'] = data['dateReleased'].apply(lambda x: x if x != "missing value" else 'Monday, December 31, 2012 at 18:00:00')
+            data['dateReleased'] = pd.to_datetime(data['dateReleased'])
+
         return data
 
     def _clean_data(self):
@@ -62,6 +67,7 @@ class Audio(object):
         self.data['release_to_play_seconds'] = (self.data['datePlayed'] - pd.to_datetime(self.data['dateReleased'])).dt.total_seconds()
         self.data['release_to_add_seconds'] = (self.data['dateAdded'] - pd.to_datetime(self.data['dateReleased'])).dt.total_seconds()
         self.data['add_to_play_seconds'] = (self.data['datePlayed'] - self.data['dateAdded']).dt.total_seconds()
+
 
     def _store_data(self):
         ''' save newly generated data to the data folder '''
