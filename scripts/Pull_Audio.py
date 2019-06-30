@@ -21,7 +21,8 @@ class Audio(object):
         self._set_config()
         self.data = self._pull_data()
         self._clean_data()
-        self._amend_data()
+        if len(self.data) != 0:
+            self._amend_data()
         self._store_data()
 
     def _set_config(self):
@@ -37,8 +38,9 @@ class Audio(object):
         ''' run applescripts and do some initial parsing/categorizing '''
 
         data_buff = Popen(['osascript pull{}Data.scpt'.format(self.audio_type)],shell=True,stdout=PIPE)
+        print('buffer loaded')
         date_cols = ['datePlayed','dateAdded','dateReleased']
-        data = pd.read_table(data_buff.stdout,sep='|',parse_dates=date_cols)
+        data = pd.read_table(data_buff.stdout,sep='|',parse_dates=date_cols,error_bad_lines=False)
         data.loc[:,'reportRunDate'] = self.today
         if self.audio_type == "Music":
             # The Bonobos track "Flowers" generates an error; as far as I know it's the only album that causes that error
@@ -53,6 +55,8 @@ class Audio(object):
         # determine whether a track was played yesterday
         self.data.loc[:,'expectedDatePlayed'] = self.data['reportRunDate'] - datetime.timedelta(days=1)
         self.data.loc[:,'played_yesterday_ind'] = pd.to_datetime(self.data['datePlayed']).dt.strftime('%Y%m%d') == pd.to_datetime(self.data['expectedDatePlayed']).dt.strftime('%Y%m%d')
+
+        self.data.to_clipboard(index=False)
         self.data = self.data[self.data['played_yesterday_ind']==True]
         self.data.drop(['played_yesterday_ind','expectedDatePlayed'],inplace=True,axis=1)
 
@@ -71,11 +75,11 @@ class Audio(object):
 
     def _store_data(self):
         ''' save newly generated data to the data folder '''
-        timestr = self.today.strftime('%Y%m%d')
         project_dir = '/Users/BEugeneSmith/Desktop/projects/PodcastAnalysis'
-        out_file_name = 'data/{}ListeningPull{}.txt'.format(self.audio_type,timestr)
+        out_file_name = self.today.strftime('data/{}ListeningPull%Y%m%d.txt'.format(self.audio_type))
         self.data.to_csv(os.path.join(project_dir,out_file_name),sep='|',index=False)
 
 if __name__ == "__main__":
     Audio(config_name='podcast')
     Audio(config_name='music')
+    Popen(['osascript email_self.scpt'],shell=True)
