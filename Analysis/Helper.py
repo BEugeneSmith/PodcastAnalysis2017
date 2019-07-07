@@ -1,5 +1,6 @@
 from datetime import *
 import pandas as pd
+import numpy as np
 import glob,os
 
 
@@ -64,6 +65,8 @@ class AudioAnalysisInput(object):
     def _process_weeks(self):
         def gen_date_code(x):
             return "{}_{:02d}".format(x.year,x.week)
+        # for col in self.data.columns:
+        #     print(col)
         self.data['weekPlayed'] = self.data['datePlayed'].apply(gen_date_code)
         self.data['weekAdded'] = self.data['dateAdded'].apply(gen_date_code)
         self.data['weekReleased'] = self.data['dateReleased'].apply(gen_date_code)
@@ -73,9 +76,20 @@ class AudioAnalysisInput(object):
         self.data['played_same_date_ind'] = self.data['datePlayed'].dt.date==self.data['dateReleased'].dt.date
 
     def _process_data_skips(self):
-        self.data.loc[:,'single_skip_ind'] = self.data['duration'] - ((pd.to_datetime(self.data['datePlayed'])-pd.to_datetime(self.data['dateAdded']))).dt.seconds
-        self.data['single_skip_ind'] = self.data['single_skip_ind'].apply(lambda x: x>0)
-        self.data['batch_skip_ind'] = (self.data['datePlayed'].duplicated() & self.data['playedCount']==1) | (self.data['datePlayed'].duplicated())
+        # self.data.loc[:,'single_skip_ind'] = self.data['duration'] - ((pd.to_datetime(self.data['datePlayed'])-pd.to_datetime(self.data['dateAdded']))).dt.seconds
+
+        data_subset = self.data[['datePlayed','duration']]
+        data_subset = data_subset.sort_values('datePlayed')
+        data_subset['duration'] = np.ceil(data_subset['duration'])
+        data_subset['durationMinutes'] = data_subset['duration']/60
+        data_subset['prevDatePlayed'] = data_subset['datePlayed'].shift(1)
+        data_subset['diff'] = (data_subset['prevDatePlayed']-data_subset['datePlayed']) / np.timedelta64(1, 's')
+        data_subset['diffMinutes'] = data_subset['diff']/60
+        data_subset['diff'] = data_subset['diff'].fillna(0)
+
+
+        self.data['single_skip_ind'] = data_subset.apply(lambda x: (x["diffMinutes"]<x["durationMinutes"]),axis=1)
+        self.data['batch_skip_ind'] = self.data['datePlayed'].duplicated()
 
     def _proess_data_categories(self):
         # process mappings
