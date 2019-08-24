@@ -38,9 +38,8 @@ class Audio(object):
         ''' run applescripts and do some initial parsing/categorizing '''
 
         data_buff = Popen(['osascript pull{}Data.scpt'.format(self.audio_type)],shell=True,stdout=PIPE)
-        print('buffer loaded')
         date_cols = ['datePlayed','dateAdded','dateReleased']
-        data = pd.read_table(data_buff.stdout,sep='|',parse_dates=date_cols,error_bad_lines=False)
+        data = pd.read_table(data_buff.stdout,sep='|',parse_dates=date_cols,error_bad_lines=False,warn_bad_lines=True)
         data.loc[:,'reportRunDate'] = self.today
         if self.audio_type == "Music":
             # The Bonobos track "Flowers" generates an error; as far as I know it's the only album that causes that error
@@ -56,7 +55,7 @@ class Audio(object):
         self.data.loc[:,'expectedDatePlayed'] = self.data['reportRunDate'] - datetime.timedelta(days=1)
         self.data.loc[:,'played_yesterday_ind'] = pd.to_datetime(self.data['datePlayed']).dt.strftime('%Y%m%d') == pd.to_datetime(self.data['expectedDatePlayed']).dt.strftime('%Y%m%d')
 
-        self.data.to_clipboard(index=False)
+        # self.data.to_clipboard(index=False)
         self.data = self.data[self.data['played_yesterday_ind']==True]
         self.data.drop(['played_yesterday_ind','expectedDatePlayed'],inplace=True,axis=1)
 

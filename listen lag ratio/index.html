@@ -64,9 +64,10 @@
         })
         .orient("left");
 
+    var colors = ["#ffffd9","#c7e9b4","#41b6c4","#225ea8","#081d58"];
     var colorScale = d3.scale.threshold()
         .domain([0.01, 1])
-        .range(["#ffffd9","#c7e9b4","#41b6c4","#225ea8","#081d58"]);
+        .range(colors);
 
     var svg = d3.select('.heatmap')
         .append("svg")
@@ -102,5 +103,31 @@
         .attr("transform", function (d) {
             return "rotate(-65)";
         });
+
+    var legend = svg.selectAll(".legend")
+      	.data(colorScale.domain()).enter()
+    		.append("g")
+     	.attr("class","legend")
+      .attr("transform", "translate(" + (width +20) + "," + 0+ ")");
+
+    legend.append("rect")
+      .attr("x", 0)
+      .attr("y", function(d, i) { return 20 * i; })
+      .attr("width", 10)
+      .attr("height", 10)
+      .style("fill", function(d, i) {
+      	return colors[i];});
+
+     legend.append("text")
+      .attr("x", 20)
+      .attr("dy", "0.75em")
+      .attr("y", function(d, i) { return 20 * i; })
+      .text(function(d) {return d});
+ 
+     legend.append("text")
+      .attr("x",0)
+ //      .attr("dy", "0.75em")
+      .attr("y",-10)
+      .text("Categories");
   });
 </script>

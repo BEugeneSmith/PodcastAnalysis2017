@@ -1,103 +1,103 @@
 ﻿album,category,frequency,network,default_duration
-Marketplace with Kai Ryssdal,finance,d,APM,1633
-Composers Datebook,music,d,APM,119
-KEXP Song of the Day,music,d,KEXP,3998
-Song of the Day,music,d,MPR,224
-Monocle 24: The Monocle Daily,news,d,Monocle,3531
-The Daily,news,d,NYT,1531
-The Gist,news,d,Slate,1921
-Slate's The Gist,news,d,Slate,3883
-Global News Podcast,news,d,BBC,1757
-MSNBC Rachel Maddow,politics,d,MSNBC,347
-MSNBC Rachel Maddow (audio),news,d,MSNBC,347
-Monocle 24: The Briefing,society,d,Monocle,396
-Vox's The Weeds,society,d,Vox,3463
+Marketplace with Kai Ryssdal,finance,d,APM,4268.329102
+Composers Datebook,music,d,APM,120.0319977
+KEXP Song of the Day,music,d,KEXP,540.0029907
+Song of the Day,music,d,MPR,442
+Monocle 24: The Monocle Daily,news,d,Monocle,3827
+The Daily,news,d,NYT,3874
+The Gist,news,d,Slate,2770.650879
+Slate's The Gist,news,d,Slate,2420
+Global News Podcast,news,d,BBC,2097
+MSNBC Rachel Maddow,politics,d,MSNBC,2781
+MSNBC Rachel Maddow (audio),news,d,MSNBC,3042
+Monocle 24: The Briefing,news,d,Monocle,3600
+Vox's The Weeds,politics,d,Vox,4352.391113
 Carbonite,tech,if,Carbonite,168
-Tribe of Mentors,interview,if,Indie,1328
-The Stack Overflow Podcast,tech,if,StackOverflow,1921
-My Dad Wrote A Porno,society,if,Indie,347
-Philosophize This!,society,if,Indie,2982
-Partially Derivative,tech,if,Indie,2982
+Tribe of Mentors,interview,if,Indie,1961
+The Stack Overflow Podcast,tech,if,StackOverflow,4140.288086
+My Dad Wrote A Porno,society,if,Indie,1126.661011
+Philosophize This!,society,if,Indie,1543.391968
+Partially Derivative,tech,if,Indie,3416
 Becoming A Data Scientist Podcast,tech,if,Indie,1667
-All Songs Considered,music,tw,NPR,1667
-Pod Save America,news,tw,Crooked,4585
-The Tim Ferriss Show,interview,w,Indie,1921
-Tamarindo,politics,w,Indie,1300
-"Today, Explained",news,d,Vox,1328
-Everything is Alive,society,if,Radiotopia,1395
-UnErased: The History of Conversion Therapy in America,society,bw,Indie,2700
-Chewing,food,if,Indiw,2700
-2 Dope Queens,comedy,w,WNYC,2717
-The Bugle,comedy,w,Radiotopia,2647
-Fake The Nation,comedy,w,Earwolf,3639
-Friday Night Comedy from BBC Radio 4,comedy,w,BBC,1757
-Homophilia,comedy,w,Earwolf,3558
-International Waters,comedy,w,Earwolf,4078
-Lovett or Leave It,comedy,w,Crooked,4254
-Spilled Milk,comedy,w,Indie,2007
-Throwing Shade,comedy,w,Earwolf,3736
-Wait Wait... Don't Tell Me!,comedy,w,NPR,3463
-Answer Me This!,comedy,w,Indie,1667
-"My Brother, My Brother And Me",comedy,w,Earwolf,347
-Design and Architecture,design,w,KCRW,2154
-Monocle 24: Section D,design,w,Monocle,396
-Monocle 24: The Urbanist,design,w,Monocle,347
-99% Invisible,design,w,Radiotopia,1667
-Clever,design,w,Indie,3874
-Design Matters with Debbie Millman,design,w,Indie,3417
-Monocle 24: Monocle on Design,design,w,Monocle,396
-FT News,finance,d,FT,1757
-Marketplace Weekend with Lizzie O'Leary,finance,w,APM,2148
-Planet Money,finance,w,NPR,1288
-Sooo Many White Guys,interview,w,WNYC,2307
-Crooked Conversations,interview,w,Crooked,2764
-Invisibilia,interview,w,NPR,4078
-RISK!,interview,w,Indie,2198
-This American Life,interview,w,CPM,1921
-How To Be Amazing with Michael Ian Black,interview,w,Indie,3558
-KEXP Live Performances Podcast,music,w,KEXP,3998
-KEXP Presents Music That Matters,music,w,KEXP,3998
-Ninja Tune Podcast,music,w,NinjaTune,1446
-Tiny Desk Concerts - Audio,music,w,NPR,3736
-Song Exploder,music,w,Radiotopia,1044
-Blabbermouth,news,w,TheStranger,2758
-FiveThirtyEight Politics,politics,w,ESPN,2277
-Slate's Political Gabfest,politics,w,Slate,3883
-Pod Save the World,politics,w,Crooked,3526
-Political Gabfest,politics,w,Slate,3653
-Code Switch,politics,w,NPR,3874
-Call Your Girlfriend,society,w,Indie,168
-Pop Culture Happy Hour,society,w,NPR,1108
-The Cracked Podcast,society,w,Earwolf,4090
-Keep It!,society,w,Crooked,3998
-Monocle 24: The Monocle Weekly,society,w,Monocle,3175
-Pod Save the People,society,w,Crooked,3193
-Savage Lovecast,society,w,TheStranger,3081
-With Friends Like These,society,w,Crooked,4317
-No Such Thing As A Fish,society,w,Indie,1446
-Majority 54,society,w,Crooked,4254
-Note to Self,tech,w,WNYC,1446
-Freakonomics Radio,tech,w,WNYC,3041
-Good Bad Show,tech,w,Indie,2026
-On the Media,news,w,WNYC,2982
-Radiolab,tech,w,WNYC,4808
-The Allusionist,tech,w,Radiotopia,1511
-Data Skeptic,tech,w,Indie,2154
-Linear Digressions,tech,w,Indie,1167
-Reply All,tech,w,Gimlet,2198
-Science Vs,tech,w,Gimlet,2194
-Talking Machines,tech,w,Indie,4629
-Command Line Heroes,tech,w,Red Hat,3874
-Politically Re-Active with W. Kamau Bell & Hari Kondabolu,politics,w,Earwolf,3653
-Adam Ruins Everything,tech,w,Earwolf,1667
-Design The Life You Love with Ayse Birsel,design,w,Indie,266
-Intelligence Squared,society,w,IQ2US,4078
-Fresh Air,society,w,NPR,3041
+All Songs Considered,music,bw,NPR,5040
+Pod Save America,politics,bw,Crooked,7035.977051
+The Tim Ferriss Show,interview,w,Indie,8434.155273
+Tamarindo,politics,w,Indie,2466.351074
+"Today, Explained",news,d,Vox,1797.615967
+Everything is Alive,society,if,Radiotopia,1665.30603
+UnErased: The History of Conversion Therapy in America,society,bw,Indie,2990.080078
+Chewing,food,if,Indiw,4354.506836
+2 Dope Queens,comedy,w,WNYC,4222
+The Bugle,comedy,w,Radiotopia,3037.675049
+Fake The Nation,comedy,w,Earwolf,4629.837891
+Friday Night Comedy from BBC Radio 4,comedy,w,BBC,1831.83606
+Homophilia,comedy,w,Earwolf,5118.955078
+International Waters,comedy,w,Earwolf,3842.768066
+Lovett or Leave It,comedy,w,Crooked,5737.925781
+Spilled Milk,comedy,w,Indie,3074.821045
+Throwing Shade,comedy,w,Earwolf,6818
+Wait Wait... Don't Tell Me!,comedy,w,NPR,3041
+Answer Me This!,comedy,w,Indie,3243
+"My Brother, My Brother And Me",comedy,w,Earwolf,4526.967773
+Design and Architecture,design,w,KCRW,1834.13501
+Monocle 24: Section D,design,w,Monocle,1814.777954
+Monocle 24: The Urbanist,design,w,Monocle,2409
+99% Invisible,design,w,Radiotopia,4149.236816
+Clever,design,w,Indie,4364.772949
+Design Matters with Debbie Millman,design,w,Indie,4730.200195
+Monocle 24: Monocle on Design,design,w,Monocle,2116.895996
+FT News,finance,d,FT,564.5319824
+Marketplace Weekend with Lizzie O'Leary,finance,w,APM,3109.64209
+Planet Money,finance,w,NPR,1749
+Sooo Many White Guys,interview,w,WNYC,3599.412109
+Crooked Conversations,interview,w,Crooked,4810
+Invisibilia,interview,w,NPR,3041.697021
+RISK!,interview,w,Indie,6724
+This American Life,interview,w,CPM,4571
+How To Be Amazing with Michael Ian Black,interview,w,Indie,4560.875
+KEXP Live Performances Podcast,music,w,KEXP,5599.242188
+KEXP Presents Music That Matters,music,w,KEXP,6108
+Ninja Tune Podcast,music,w,NinjaTune,3883.697998
+Tiny Desk Concerts - Audio,music,w,NPR,1478
+Song Exploder,music,w,Radiotopia,1612.093994
+Blabbermouth,news,w,TheStranger,3663.855957
+FiveThirtyEight Politics,politics,w,ESPN,3879
+Slate's Political Gabfest,politics,w,Slate,4293
+Pod Save the World,politics,w,Crooked,5499.923828
+Political Gabfest,politics,w,Slate,5236.558105
+Code Switch,politics,w,NPR,3125.419922
+Call Your Girlfriend,society,w,Indie,4627
+Pop Culture Happy Hour,society,w,NPR,2910
+The Cracked Podcast,society,w,Earwolf,6933
+Keep It!,society,w,Crooked,6116.597168
+Monocle 24: The Monocle Weekly,society,w,Monocle,3923.512939
+Pod Save the People,society,w,Crooked,6554.435059
+Savage Lovecast,society,w,TheStranger,3364
+With Friends Like These,society,w,Crooked,5980
+No Such Thing As A Fish,society,w,Indie,3350.231934
+Majority 54,society,w,Crooked,3718
+Note to Self,tech,w,WNYC,2897.396973
+Freakonomics Radio,tech,w,WNYC,4844.538086
+Good Bad Show,tech,w,Indie,3384.188965
+On the Media,society,w,WNYC,3720.462891
+Radiolab,tech,w,WNYC,4808.48877
+The Allusionist,tech,w,Radiotopia,2011.584961
+Data Skeptic,tech,w,Indie,3657.299072
+Linear Digressions,tech,w,Indie,2088.697998
+Reply All,tech,w,Gimlet,5426.859863
+Science Vs,tech,w,Gimlet,2863.594971
+Talking Machines,tech,w,Indie,4225.148926
+Command Line Heroes,tech,w,Red Hat,1666.767944
+Politically Re-Active with W. Kamau Bell & Hari Kondabolu,politics,w,Earwolf,6401
+Adam Ruins Everything,tech,w,Earwolf,4093
+Design The Life You Love with Ayse Birsel,design,w,Indie,2184
+Intelligence Squared,society,w,IQ2US,6574
+Fresh Air,society,w,NPR,3044.728027
 Unmistakable Creative,interview,w,Indie,3056
-Adversarial Learning,tech,w,Indie,1667
-What's The Point,tech,w,ESPN,4655
-Longform,interview,w,PRI,1167
-Nancy,society,w,WNYC,1446
+Adversarial Learning,tech,w,Indie,4031
+What's The Point,tech,w,ESPN,2586
+Longform,interview,w,PRI,3478.22998
+Nancy,society,w,WNYC,2146
 Keepin' it 1600,politics,w,Crooked,3998
 Face the Nation on the Radio,politics,w,CBS,1395
 Katie Couric,interview,w,Indie,4078
@@ -105,38 +105,43 @@ Design Matters,design,w,Indie,2154
 Design Matters with Debbie Millman: 2009-2016,design,w,Indie,266
 Revisionist History,society,w,WNYC,2198
 KCRW's DnA: Design & Architecture,design,w,KCRW,4078
-Even More News,comedy,w,Indie,266
-Good Food,food,w,KCRW,2026
-Hollywood Handbook,comedy,w,indie,2026
-Tea With Alice,comedy,w,Indie,1300
-Make Me Smart with Kai and Molly,tech,w,APM,2148
-"Yo, Is This Racist?",comedy,w,Earwolf,4023
-Wait Wait...Don't Tell Me!,comedy,w,NPR,3018
-Hysteria,politics,w,Crooked,4078
-Las Culturistas with Matt Rogers and Bowen Yang,comedy,w,Forever Dog,3998
-SPONTANEANATION with Paul F. Tompkins,comedy,w,Earwolf,4629
-Skip the Repeat,interview,bw,Indie,3883
-Why Won't You Date Me? with Nicole Byer,comedy,w,HeadGum,4078
-The Wilderness,politics,w,Crooked,1921
-"Recode Decode, hosted by Kara Swisher",society,w,Recode,4808
-The Skewer Podcast,comedy,m,Indie,1921
-Punch Up The Jam,comedy,w,headGum,5500
-Nerdificent,society,w,HowStuffWorks,1446
-The Poscast with Joe Posnanski & Michael Schur,sports,w,Indie,1921
-Breach,tech,w,Carbonite,168
-Bon Appétit Foodcast,food,w,Bon Apetit,2661
-Curious City,society,if,WBEX,637
-Hurry Slowly,society,w,Indie,2354
-Queer Money,society,w,Indie,697
-Split the Veil,tech,w,Indie,4629
-Troubled Waters,comedy,w,Earwolf,3056
-What the Tuck? A RuPaul's Drag Race Podcast,society,w,Indie,4655
-Whimsically Volatile,society,w,Indie,2970
-Techish,tech,if,Indie,1471
-Make Me Smart® with Kai and Molly,tech,w,Marketplace,2700
-The Good Place: The Podcast,entertainment,w,NBC,2400
-Corporate Lunch,society,if,GQ,3600
-Marketplace,society,d,Marketplace,1800
-Crooked Minis,society,w,Crooked,1800
-This Is Uncomfortable,society,w,Marketplace,1800
-Prism: Tales of Your City,society,if,Netflix,2400
+Even More News,comedy,w,Indie,2760.541992
+Good Food,food,w,KCRW,3470.13208
+Hollywood Handbook,comedy,w,indie,3989.785889
+Tea With Alice,comedy,w,Indie,4733.204102
+Make Me Smart with Kai and Molly,tech,w,APM,2859.743896
+"Yo, Is This Racist?",comedy,w,Earwolf,6106.01709
+Wait Wait...Don't Tell Me!,comedy,w,NPR,3048.149902
+Hysteria,politics,w,Crooked,4947.146973
+Las Culturistas with Matt Rogers and Bowen Yang,comedy,w,Forever Dog,5757.230957
+SPONTANEANATION with Paul F. Tompkins,comedy,w,Earwolf,4514.062988
+Skip the Repeat,interview,bw,Indie,5538.585938
+Why Won't You Date Me? with Nicole Byer,comedy,w,HeadGum,5406.01416
+The Wilderness,politics,w,Crooked,3558.373047
+"Recode Decode, hosted by Kara Swisher",society,w,Recode,4315.062012
+The Skewer Podcast,comedy,m,Indie,6032.78418
+Punch Up The Jam,comedy,w,headGum,6300.055176
+Nerdificent,society,w,HowStuffWorks,4978.416016
+The Poscast with Joe Posnanski & Michael Schur,tech,w,Indie,3865.6521
+Breach,tech,w,Carbonite,3141.120117
+Bon Appétit Foodcast,food,w,Bon Apetit,4219.036133
+Curious City,society,if,WBEX,2617.625977
+Hurry Slowly,society,w,Indie,3385.076904
+Queer Money,society,w,Indie,965.9550171
+Split the Veil,tech,w,Indie,4629.263184
+Troubled Waters,comedy,w,Earwolf,3594.840088
+What the Tuck? A RuPaul's Drag Race Podcast,society,w,Indie,5933.27002
+Whimsically Volatile,society,w,Indie,6859.362793
+Techish,tech,if,Indie,1471.213013
+Make Me Smart® with Kai and Molly,tech,w,Marketplace,2401.332031
+The Good Place: The Podcast,society,w,NBC,2735.0979
+Corporate Lunch,society,if,GQ,3196.548096
+Marketplace,finance,d,Marketplace,1904.135986
+Crooked Minis,society,w,Crooked,57.15499878
+This Is Uncomfortable,society,w,Marketplace,1904.135986
+Prism: Tales of Your City,society,if,Netflix,3081.899902
+RA Exchange,music,if,The Hour,4200.228027
+This is HCD - Human Centered Design Podcast,design,if,This is HCD,1611.572021
+Dress Codes,design,if,Gimlet Creative,1109.446045
+Encyclopedia Womannica,society,d,Wonder Media Network,300
+Adulting,comedy,w,WNYC,3600
