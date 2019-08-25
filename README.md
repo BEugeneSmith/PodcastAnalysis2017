@@ -1,4 +1,5 @@
 ## Podcast Analysis
+A query into my podcast listening habits
 ### Introduction
 
 Hi, I'm Eugene and I'm trying to be a good, efficient consumer. I'm interested in design and the optimization of joy in quotidian experiences. As an individual that more often than not feels like a walking brain, podcasts are a relatively portable medium to main at least a surface-level grasp on a wide variety of topics, including design, technology, politics, and global news.
