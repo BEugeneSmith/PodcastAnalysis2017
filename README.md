@@ -1,6 +1,8 @@
-## Podcast Analysis
-A query into my podcast listening habits
+
 ### Introduction
+A query into my podcast listening habits
+
+##### TL;DR - keeping an eye on one's daily consumption for a critical resource yields useful points for reflection and modification.  
 
 Hi, I'm Eugene and I'm trying to be a good, efficient consumer. I'm interested in design and the optimization of joy in quotidian experiences. As an individual that more often than not feels like a walking brain, podcasts are a relatively portable medium to main at least a surface-level grasp on a wide variety of topics, including design, technology, politics, and global news.
 
@@ -49,7 +51,14 @@ Over time, I observed that I caught up with podcasts at certain rates, depending
 
 In that time period I have dropped at least 10 podcasts that were redundant or presented the same information in only slightly different ways than others, reducing listening lag.  
 
-On a less measured note, I've observed that I am scrambling to keep up with less, enjoying more time to read, and generally happier, all things considered.  
+Interrogating this even further, I found that 2018 has been an especially effective year of trimming podcasts from my list in terms of listen lag. However following the early 2018 cuts the lag ratio returned level. Though not as intense as 2016's reflection, I began regularly cutting redundant or unimportant podcasts. They were consistently tech or society (broadly tv show recaps) podcasts.  
+
+![img4](Story/DropoffAnalysis1.png)
+
+On a less measured note, I've observed that I am scrambling to keep up with less, enjoying more time to read, and generally happier, all things considered. 38 (and constantly) shrinking subscriptions is much more manageable than around 50.  
 
 #### Improvements
 Though it would be overkill, the next logical step would be to integerate Natural Language Processing and parse information from descriptions, as well as rating every single consumed podcast for enjoyment. Even without those steps, this exercise proved to be useful in that it quantified a product I consume on a regular basis in order to be a more conscious consumer. 
+
+#### Thanks for reading, and feel free to reach out to me at the [beugenesmith@gmail.com](mailto:b.eugene.smith@gmail.com)
+
