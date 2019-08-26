@@ -47,12 +47,9 @@ Over time, I observed that I caught up with podcasts at certain rates, depending
 
 ![img3](Story/Listen_Lag.png)
 
-In that time period I have dropped at least 10 podcasts that were redundant or presented the same information in only slightly different ways than others, reducing listening lag. 
+In that time period I have dropped at least 10 podcasts that were redundant or presented the same information in only slightly different ways than others, reducing listening lag.  
+
+On a less measured note, I've observed that I am scrambling to keep up with less, enjoying more time to read, and generally happier, all things considered.  
 
 #### Improvements
 Though it would be overkill, the next logical step would be to integerate Natural Language Processing and parse information from descriptions, as well as rating every single consumed podcast for enjoyment. Even without those steps, this exercise proved to be useful in that it quantified a product I consume on a regular basis in order to be a more conscious consumer. 
-
-
-```python
-
-```
